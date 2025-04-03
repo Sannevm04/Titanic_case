@@ -1,4 +1,20 @@
 import streamlit as st
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+import pandas as pd
+import plotly.express as px
+import geopandas as gpd
+from shapely.geometry import Point
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+from scipy import stats
+from sklearn.linear_model import LinearRegression
+from streamlit_option_menu import option_menu
+import plotly.subplots as sp
+import folium
+from streamlit_folium import st_folium
+
 st.set_page_config(
     page_title="Titanic verbetercase",
     page_icon="❄️🚢",
