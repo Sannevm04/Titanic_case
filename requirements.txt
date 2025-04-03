@@ -10,3 +10,4 @@ scikit-learn
 streamlit-option-menu
 folium
 streamlit-folium
+matplotlib.pyplot
