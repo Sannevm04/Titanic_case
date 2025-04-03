@@ -3,10 +3,11 @@ plotly
 pandas
 geopandas
 shapely
-matplotlib
+matplotlib==3.9.2
 seaborn
 scipy
 scikit-learn
 streamlit-option-menu
 folium
 streamlit-folium
+matplotlib.pyplot
